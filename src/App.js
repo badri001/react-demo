@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import './appStyle.css'
+import { Form } from "./components/Forms";
+// import styles from './appStyle.module.css'
+// import { Inline } from "./components/inline";
+// import { NameList } from "./components/NameList";
+// import { ParentComponent } from "./components/ParentComponet";
+// import { UserGreeting } from "./components/UserGteetng";
+// import { ClickHandler } from "./components/ClickHandler";
+// import { Greet } from "./components/Greet";
+// import { Message } from "./components/Message";
+// import {StyleSheet} from "./components/Stylesheet";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet name="Bruce" heroName="Batman" />
+      <Greet name="Clark" heroName="Superman">
+        <button>Action</button>
+      </Greet>
+      <Greet name="Diana" heroName="Wonder Woman">
+        <p>This is children props</p>
+      </Greet>
+      <Message/>
+      <ClickHandler/> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting/> */}
+      {/* <NameList /> */}
+      {/* <StyleSheet/> */}
+      {/* <Inline/>
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}> Success</h1> */}
+      <Form/>
     </div>
   );
 }
